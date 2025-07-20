@@ -1,0 +1,30 @@
+<div class="mb-4">
+  <h2 class="mb-3">Menu Navigation</h2>
+  <div class="d-flex">
+    <button routerLink="/cours" class="btn btn-primary" style="width: 160px; height: 40px; margin-right: 16px;">Cours</button>
+    <button routerLink="/matieres" class="btn btn-secondary" style="width: 160px; height: 40px; margin-right: 16px;">Matières</button>
+    <button routerLink="/salles" class="btn btn-success" style="width: 160px; height: 40px;">Salles</button>
+  </div>
+</div>
+
+<!-- The AG Grid component, with various Grid Option properties -->
+<h2 class="mt-5 mb-4">Liste des Matières</h2>
+
+<ag-grid-angular
+  class="ag-theme-alpine"
+  style="width: 45%; height: 350px;"
+  [rowData]="rowData"
+  [columnDefs]="colDefs"
+  (cellClicked)="onCellClicked($event)">
+</ag-grid-angular>
+
+<div *ngIf="coursFiltered.length > 0" class="mt-4">
+  <h3 *ngIf="selectedMatiereNom">Cours planifiés pour la matière : <strong>{{ selectedMatiereNom }}</strong></h3>
+  <ag-grid-angular
+    class="ag-theme-alpine"
+    style="width: 45%; height: 350px;"
+    [rowData]="coursFiltered"
+    [columnDefs]="coursColDefs">
+  </ag-grid-angular>
+</div>
+

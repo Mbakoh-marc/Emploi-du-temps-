@@ -1,0 +1,29 @@
+<div class="mb-4">
+  <h2 class="mb-3">Menu Navigation</h2>
+  <div class="d-flex">
+    <button routerLink="/cours" class="btn btn-primary" style="width: 160px; height: 40px; margin-right: 16px;">Cours</button>
+    <button routerLink="/matieres" class="btn btn-secondary" style="width: 160px; height: 40px; margin-right: 16px;">Matières</button>
+    <button routerLink="/salles" class="btn btn-success" style="width: 160px; height: 40px;">Salles</button>
+  </div>
+</div>
+
+<h2 class="mt-5 mb-4">Liste des Salles</h2>
+
+<ag-grid-angular
+  style="width: 45%; height: 350px;"
+  class="ag-theme-alpine"
+  [rowData]="rowData"
+  [columnDefs]="colDefs"
+  (cellClicked)="onCellClicked($event)">
+</ag-grid-angular>
+
+<!-- Section des cours liés -->
+<div *ngIf="coursFiltered.length > 0" class="mt-4">
+  <h3>Cours planifiés pour la salle "{{ selectedSalleNom }}"</h3>
+  <ag-grid-angular
+    class="ag-theme-alpine"
+    style="width: 45%; height: 350px;"
+    [rowData]="coursFiltered"
+    [columnDefs]="coursColDefs">
+  </ag-grid-angular>
+</div>

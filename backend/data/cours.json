@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1753018526991,
+    "classeId": "1",
+    "matiereId": "1",
+    "salleId": "2",
+    "jour": "Mardi",
+    "heureDebut": "16:30",
+    "heureFin": "17:30"
+  },
+  {
+    "id": 1753018570652,
+    "classeId": "4",
+    "matiereId": 1,
+    "salleId": 2,
+    "jour": "Lundi",
+    "heureDebut": "16:30",
+    "heureFin": "17:45",
+    "classeNom": "L1 Info",
+    "matiereNom": "Mathématiques",
+    "salleNom": "Salle B"
+  },
+  {
+    "id": 1753024704935,
+    "classeId": "2",
+    "matiereId": "2",
+    "salleId": "1",
+    "jour": "Jeudi",
+    "heureDebut": "18:15",
+    "heureFin": "19:15"
+  },
+  {
+    "id": 1753028282786,
+    "classeId": "3",
+    "matiereId": 3,
+    "salleId": 2,
+    "jour": "Mardi",
+    "heureDebut": "14:15",
+    "heureFin": "17:45",
+    "classeNom": "M1 Info",
+    "matiereNom": "Data Science",
+    "salleNom": "Salle B"
+  },
+  {
+    "id": 1753030323821,
+    "classeId": 4,
+    "matiereId": 4,
+    "salleId": "3",
+    "jour": "Vendredi",
+    "heureDebut": "18:45",
+    "heureFin": "19:15",
+    "classeNom": "Bachelor Data",
+    "matiereNom": "Machine Learning",
+    "salleNom": ""
+  },
+  {
+    "id": 1753030359064,
+    "classeId": "3",
+    "matiereId": "5",
+    "salleId": "4",
+    "jour": "Mercredi",
+    "heureDebut": "19:00",
+    "heureFin": "20:30"
+  },
+  {
+    "id": 1753031146457,
+    "classeId": "3",
+    "matiereId": "2",
+    "salleId": "2",
+    "jour": "Jeudi",
+    "heureDebut": "07:30",
+    "heureFin": "09:30"
+  },
+  {
+    "id": 1753031183328,
+    "classeId": "2",
+    "matiereId": "5",
+    "salleId": "4",
+    "jour": "Mercredi",
+    "heureDebut": "10:00",
+    "heureFin": "11:30"
+  },
+  {
+    "id": 1753031589906,
+    "classeId": "3",
+    "matiereId": "4",
+    "salleId": "3",
+    "jour": "Vendredi",
+    "heureDebut": "15:15",
+    "heureFin": "17:15"
+  }
+]

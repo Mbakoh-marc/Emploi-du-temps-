@@ -1,0 +1,9 @@
+# Ignorer les node_modules de front et back
+/frontend/node_modules/
+/backend/node_modules/
+
+# Ignorer fichiers logs
+*.log
+
+.idea/
+

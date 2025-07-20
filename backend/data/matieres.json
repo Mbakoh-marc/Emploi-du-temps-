@@ -1,0 +1,7 @@
+[
+  { "id": 1, "nom": "Mathématiques" },
+  { "id": 2, "nom": "Programmation" },
+  { "id": 3, "nom": "Data Science" },
+  { "id": 4, "nom": "Machine Learning" },
+  { "id": 5, "nom": "Python" }
+]
